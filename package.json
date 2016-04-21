@@ -5,7 +5,9 @@
   "main": "lib/index.js",
   "style": "lib/index.css",
   "dependencies": {
-    "virtual-element": "^1.2.0"
+    "clipboard": "^1.5.10",
+    "virtual-element": "^1.2.0",
+    "uid": "0.0.2"
   },
   "devDependencies": {
     "assert-element": "^0.3.1",
@@ -15,11 +17,9 @@
     "babel-preset-es2015": "^6.6.0",
     "babelify": "^7.2.0",
     "budo": "^8.2.1",
-    "clipboard": "^1.5.10",
     "deku": "^0.5.6",
     "mochify": "^2.17.0",
     "phantomjs-prebuilt": "^2.1.7",
-    "postcss-cli": "^2.5.1",
-    "uid": "0.0.2"
+    "postcss-cli": "^2.5.1"
   }
 }
