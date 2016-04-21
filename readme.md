@@ -1,3 +1,4 @@
+[![Circle CI](https://circleci.com/gh/segmentio/deku-copy-button.svg?style=svg&circle-token=40381ad6a73abd6bc2eb5daebdfa5064f49f52fe)](https://circleci.com/gh/segmentio/deku-copy-button)
 
 # deku-copy-button
 
