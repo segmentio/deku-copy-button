@@ -1,6 +1,6 @@
 {
   "name": "@segment/deku-copy-button",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A copy button component for Deku.",
   "main": "lib/index.js",
   "style": "lib/index.css",
