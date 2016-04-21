@@ -1,0 +1,61 @@
+
+.CopyButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 7px 13px;
+}
+
+.CopyButton-left {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.CopyButton-left:after {
+  background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  position: absolute;
+  width: 20px;
+  content: '';
+  bottom: 0;
+  right: 0;
+  top: 0;
+}
+
+.CopyButton-label {
+  font-size: 16px;
+  color: #b7bdc4;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.CopyButton-text {
+  font-family: var(--font-family-mono);
+  color: #665f57;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  width: 100%;
+  outline: none;
+  cursor: text;
+  border: 0;
+}
+
+.CopyButton-button {
+  font-family: var(--font-family-caps);
+  text-transform: lowercase;
+  margin-right: -6px;
+  padding: 12px 13px;
+  font-size: 13px;
+	color: #665f57;
+  line-height: 1;
+  border: none;
+  outline: none;
+  padding: 5px 13px;
+  display: block;
+  border-radius: 4px;
+  background-color: rgba(183, 189, 195, 0.16);
+}
