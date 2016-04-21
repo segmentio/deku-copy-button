@@ -7,7 +7,7 @@
   "dependencies": {
     "clipboard": "^1.5.10",
     "virtual-element": "^1.2.0",
-    "uid": "0.0.2"
+    "random-id": "0.0.2"
   },
   "devDependencies": {
     "assert-element": "^0.3.1",

@@ -5,7 +5,7 @@
 
 import element from 'virtual-element';
 import Clipboard from 'clipboard';
-import uid from 'uid';
+import randomID from 'random-id';
 
 /**
  * Exports.
@@ -32,7 +32,7 @@ function initialState() {
  */
 
 function afterMount({ props }, el, setState) {
-  const id = el.id = el.id || `x${uid(30)}`;
+  const id = el.id = el.id || `x${randomID(30)}`;
   const clipboard = new Clipboard(`#${id} .CopyButton-button`);
   clipboard.on('success', function() {
     setState({ copied: true });
